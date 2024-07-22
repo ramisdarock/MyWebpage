@@ -1,0 +1,60 @@
+body{
+    background-color: yellow;
+}
+#Menudiv{
+    border: 0.25rem solid black;
+    display: flex;
+    align-items: center;
+}
+.dropbtn {
+    font-family: 'Monospace	Courier New';
+    font-size: large;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+}
+.dropdown:hover .dropbtn{
+    color:black;
+    background-color: white;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: white; color: black;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#Skull{
+    height: 43px;
+    width: 43px;
+}
+#Skulldiv{
+   display: inline-block;
+   margin-left: 12px;
+}
+#Trolldiv{
+    display: inline-block;
+    margin-left: 24px;
+    background-color: white;
+}
+#Trollimg{
+    height: 43px;
+    width: 43px;
+}
+h2{padding-left: 20%;
+}
+#cowboimg{margin-left:10px;}
